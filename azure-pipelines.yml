@@ -23,6 +23,6 @@ steps:
     tasks: 'build'
 - task: Docker@2
   inputs:
-    containerRegistry: 'f8d718dd-8c14-4a44-a0f6-f5412cfad364'
+    containerRegistry: '27fee746-c417-42c1-b30d-b93cb5e0e130'
     repository: 'springmusic'
     command: 'buildAndPush'
