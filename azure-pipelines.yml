@@ -21,3 +21,8 @@ steps:
     publishJUnitResults: false
     testResultsFiles: '**/TEST-*.xml'
     tasks: 'build'
+- task: Docker@2
+  inputs:
+    containerRegistry: 'f8d718dd-8c14-4a44-a0f6-f5412cfad364'
+    repository: 'springmusic'
+    command: 'buildAndPush'
